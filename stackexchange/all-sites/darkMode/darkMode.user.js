@@ -24,6 +24,7 @@
 // @match        *://*.superuser.com
 // @match        *://stackexchange.com/*
 // @match        *://stackexchange.com
+// @run-at       document-start
 // @grant        none
 // ==/UserScript==
 
