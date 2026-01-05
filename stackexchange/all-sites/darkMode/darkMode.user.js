@@ -5,15 +5,25 @@
 // @description  Adds universal-ish dark mode to Stack Exchange
 // @author       cocomac, user7215
 // @match        *://stackapps.com/*
+// @match        *://stackapps.com
 // @match        *://*.stackapps.com/*
+// @match        *://*.stackapps.com
 // @match        *://*.stackexchange.com/*
+// @match        *://*.stackexchange.com
 // @match        *://stackoverflow.com/*
+// @match        *://stackoverflow.com
 // @match        *://*.stackoverflow.com/*
+// @match        *://*.stackoverflow.com
 // @match        *://askubuntu.com/*
+// @match        *://askubuntu.com
 // @match        *://*.askubuntu.com/*
+// @match        *://*.askubuntu.com
 // @match        *://superuser.com/*
+// @match        *://superuser.com
 // @match        *://*.superuser.com/*
+// @match        *://*.superuser.com
 // @match        *://stackexchange.com/*
+// @match        *://stackexchange.com
 // @grant        none
 // ==/UserScript==
 
