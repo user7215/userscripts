@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Universal Dark Mode
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Adds universal-ish dark mode to Stack Exchange
 // @author       cocomac, user7215
 // @match        *://stackapps.com/*
@@ -26,6 +26,11 @@
 // @match        *://stackexchange.com
 // @grant        GM_addStyle
 // ==/UserScript==
+
+// NEW VERSION CHANGELOG -
+/* 
+Uses GM_addStyle instead of injecting into <head>. Still haven't figured out flickering yet. I might need to make a custom extension to solve the flickering.
+*/
 
 (function () {
   "use strict";
